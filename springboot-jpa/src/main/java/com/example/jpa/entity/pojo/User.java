@@ -28,9 +28,6 @@ public class User {
     @Column(name = "nick_Name")
     private String nickName;
 
-    @Column(name = "nick_Name")
-    private String nickName;
-
     @Column(name = "sex")
     private String sex;
 
