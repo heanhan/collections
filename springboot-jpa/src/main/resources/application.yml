@@ -52,6 +52,4 @@ spring:
 
 
 #显示jpa 的sql的参数
-logging:
-  level: org.hibernate.type.descriptor.sql.BasicBinder=trace
 
