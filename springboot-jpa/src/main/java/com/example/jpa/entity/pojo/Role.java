@@ -4,7 +4,6 @@ package com.example.jpa.entity.pojo;
 import lombok.AllArgsConstructor;
 import lombok.Data;
 import lombok.NoArgsConstructor;
-import org.hibernate.validator.constraints.CodePointLength;
 
 import javax.persistence.*;
 
@@ -37,5 +36,6 @@ public class Role {
      */
     @Column(name = "role_type")
     private String roleType;
+
 
 }

@@ -4,7 +4,9 @@ package com.example.jpa.entity.pojo;
 import lombok.Data;
 
 import javax.persistence.*;
+import java.util.ArrayList;
 import java.util.Date;
+import java.util.List;
 
 /**
  * @author zhaojh0912
@@ -99,4 +101,8 @@ public class SysInitResource {
      */
     @Column(name = "data_stamp")
     private Date dataStamp;
+
+    @ElementCollection
+    @Transient
+    public List<SysInitResource> children=new ArrayList<>();
 }
